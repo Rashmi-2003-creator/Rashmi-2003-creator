@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { smoothScrollToSection } from "@/lib/utils";
 import { Award, Code } from "lucide-react";
-import profileImage from "@assets/profile_1755373836422.png";
+import profileImage from "@assets/profile.png";
 
 export default function HeroSection() {
   const scrollToContact = () => {

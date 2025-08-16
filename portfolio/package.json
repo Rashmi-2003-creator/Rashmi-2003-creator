@@ -1,12 +1,13 @@
 {
-  "name": "rest-express",
+  "name": "rest-frontend",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
-    "start": "vite preview"
+    "preview": "vite preview",
+    "check": "tsc"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
